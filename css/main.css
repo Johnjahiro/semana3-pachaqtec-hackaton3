@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #E5E5E5;
+}
+
+header {
+    width: 960px;    
+    margin: 0 auto;
+}
+
+main {
+    width: 960px;    
+    margin: 0 auto;
+}
+
+header h1 {
+    position: absolute;
+    color: #fff;
+    font-size: 4em;
+}
+
+header h2 {
+    position: absolute;    
+    top: 300px;
+    font-size: 2em;
+    color: #fff;
+    padding: 20px;
+    background: rgba(114, 153, 254, 0.5);
+    border-radius: 10px;
+}
+
+section.about {
+    background-color: #7299FE;
+    padding: 30px 30px 70px 50px;
+}
+
+section.about h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+section.about p {
+    text-align: justify;
+    color: #fff; 
+    line-height: 25px;
+}
+
+section.about a {
+    padding: 20px 55px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #D16FFF;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+section.skills {
+    background-color: #9122FF;
+    color: #fff;
+    padding: 30px 30px 70px 50px;
+}
+
+section.skills .html {
+    width: 700px;
+    margin: 0 auto;
+}
+
+section.skills h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+section.portafolio {
+    background-color: #FFD233;
+    padding: 30px 30px 30px 50px;
+}
+
+section.portafolio h2{
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+section.portafolio .imagenes {
+    width: 700px;
+    margin-left: 140px;
+}
+
+section.portafolio .imagenes figure {
+    display: inline;
+}
+
+section.clientes {
+    background-color: #3F4E62;
+    padding: 30px 30px 70px 50px;
+}
+
+section.clientes h2{
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+section.clientes ul {
+    list-style-type: none;
+    width: 800px;
+    margin-left: 50px;
+}
+
+section.clientes li {
+    display: inline;
+}
+
+section.contacto {
+    background-color: #1687A0;
+    padding: 30px 30px 70px 50px;
+}
+
+section.contacto h2{
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 500px;
+    margin: 0 auto;
+}
+section.contacto table tr td input {
+    height:40px;
+    padding: 5px;
+}
+
+form {
+    width: 600px;    
+    margin: 0 auto;
+}
+
+input {
+    padding: 15px 20px;    
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 250px;
+}
+
+div {
+    display: inline-block;
+    margin-bottom: 15px;    
+}
+
+.descripcion {
+    width: 100%;    
+}
+
+.descripcion textarea {
+    width: 100%;
+    padding: 15px;
+}
+
+.boton {
+    margin-left: 250px;   
+}
+
+.boton button {
+    padding: 15px 35px;
+    cursor: pointer;
+    background-color: seagreen;
+    text-transform: uppercase;
+    outline: none;
+    font-weight: bold;
+    color: #fff;
+}
+
